@@ -6,5 +6,6 @@ public class MyTreetTest {
             myTree.insertEl(i);
         }
         System.out.println(myTree.searchEl(18).right.val);
+        System.out.println(myTree.searchEl(25).right.val);
     }
 }
